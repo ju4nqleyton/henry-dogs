@@ -1,0 +1,18 @@
+.footer {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0px;
+  width: 100vw;
+}
+
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}

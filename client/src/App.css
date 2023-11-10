@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+button {
+  font-family: 'Roboto Mono', monospace;
+}

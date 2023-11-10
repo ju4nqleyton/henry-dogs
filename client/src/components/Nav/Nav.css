@@ -1,0 +1,44 @@
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.selectors {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.temperaments-select > div {
+  padding: 10px;
+}
+
+select {
+  padding: 12px 20px;
+  font-size: 1em;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  appearance: none;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button {
+  text-transform: lowercase;
+}
