@@ -35,7 +35,7 @@ export default function Create() {
     image: /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/,
     height: /^\d+(\.\d+)? - \d+(\.\d+)?$/,
     weight: /^\d+(\.\d+)? - \d+(\.\d+)?$/,
-    life_span: /^\d+(\.\d+)? - \d+(\.\d+)? years$/,
+    life_span: /^\d+(\.\d+)? - \d+(\.\d+)?$/,
   };
 
   useEffect(() => {
@@ -182,7 +182,7 @@ export default function Create() {
                       name="life_span"
                       value={form.life_span}
                       onChange={handleChange}
-                      placeholder="10 - 12 years"
+                      placeholder="10 - 12"
                     />
                     <div className="errors">{errors.life_span}</div>
                   </td>

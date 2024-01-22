@@ -23,6 +23,13 @@ export default function Detail() {
     }
   }
 
+  const formatLifeSpan = () => {
+    if (!dog.life_span?.includes('years')) {
+      return `${dog?.life_span} years`;
+    }
+    return `${dog?.life_span}`;
+  };
+
   return (
     <div className="detail-box">
       <div className="detail-container">
@@ -46,7 +53,7 @@ export default function Detail() {
             </tr>
             <tr>
               <th>Life Span:</th>
-              <td>{dog.life_span}.</td>
+              <td>{formatLifeSpan()}.</td>
             </tr>
           </table>
         </div>
